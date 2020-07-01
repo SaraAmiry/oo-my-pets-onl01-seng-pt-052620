@@ -20,7 +20,7 @@ class Cat
   end 
   
   def change_mood 
-    @mood = "playful"
+    @mood.change
   end 
   
 end
