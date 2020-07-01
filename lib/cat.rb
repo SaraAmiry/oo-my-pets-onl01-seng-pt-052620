@@ -6,7 +6,7 @@ class Cat
   def self.all 
     @@all
   end 
-  def initialize(name, Owner)
+  def initialize(name, owner)
     @@all << self
     @name = name 
     @owner = Owner
