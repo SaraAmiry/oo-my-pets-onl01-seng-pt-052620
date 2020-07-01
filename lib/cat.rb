@@ -16,9 +16,6 @@ class Cat
   def change_owner
   end 
   
-  def change_name
-  end 
-  
   def mood 
     @mood
   end 
