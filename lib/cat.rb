@@ -11,10 +11,7 @@ class Cat
     @name = name 
     @owner = owner
     @mood = "nervous"
-  end 
-
-  def change_owner
-  end 
+  end
   
   def mood 
     @mood
