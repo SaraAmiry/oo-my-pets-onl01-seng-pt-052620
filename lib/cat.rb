@@ -19,8 +19,4 @@ class Cat
     @mood
   end 
   
-  #def change_mood 
-  #  @mood.change
-  #end 
-  
 end
