@@ -12,7 +12,7 @@ class Owner
     raise NoMethodError, 
     "#{owner.class} received, owner name expected." if !owner.is_a?(owner)
     @owner = owner
-    owner.name(self) unless owner.name.include?(self) 
+    #owner.name(self) unless owner.name.include?(self) 
   end   
     
  
