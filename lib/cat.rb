@@ -1,7 +1,7 @@
 class Cat
   
   attr_reader :name
-  attr_write :mood, :owner
+  attr_writer :mood, :owner
   @@all = []
   def self.all 
     @@all
