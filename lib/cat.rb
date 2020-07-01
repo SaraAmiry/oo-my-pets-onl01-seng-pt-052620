@@ -6,10 +6,10 @@ class Cat
   def self.all 
     @@all
   end 
-  def initialize(name, owner)
+  def initialize(name, Owner)
     @@all << self
     @name = name 
-    @owner = owner
+    @owner = Owner
     @mood = "nervous"
   end 
 
