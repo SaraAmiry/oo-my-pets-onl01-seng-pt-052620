@@ -1,7 +1,7 @@
 class Cat
   
   attr_reader :name
-  attr_writer :mood, :owner
+  attr_accessor :mood, :owner
   @@all = []
   def self.all 
     @@all
@@ -12,12 +12,7 @@ class Cat
     @owner = owner
     @mood = "nervous"
   end 
-  
-  def owner_name(name) 
-    raise NoMethodEr, "#{owner.class} received, owner name expected." if !owner.is_a?(owner)
-    @owner = owner
-    owner.name(self) unless owner.name.include?(self) 
-  end 
+
   def change_owner
   end 
   
