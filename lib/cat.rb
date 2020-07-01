@@ -20,6 +20,7 @@ class Cat
   def change_mood 
     @mood = "playful"
   end 
+  
   #def owner
   #  Self.owner = @owner 
   #end
