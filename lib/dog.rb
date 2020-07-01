@@ -18,8 +18,4 @@ class Dog
     @mood
   end 
   
-  def change_mood
-    @mood = "hungry"
-  end 
-  
 end
