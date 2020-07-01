@@ -1,6 +1,6 @@
 class Dog
-  attr_reader :owner, :name 
-  attr_writer :mood
+  attr_reader :name 
+  attr_writer :mood, :owner
   @@all = []
   
   def self.all 
