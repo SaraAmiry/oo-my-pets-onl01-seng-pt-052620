@@ -8,15 +8,6 @@ class Owner
     @@all << self
   end 
  
-  def owner_name(name)
-    
-    raise NoMethodError, 
-    "#{owner.class} received, owner name expected." if !owner.is_a?(owner)
-    @owner = owner
-    #owner.name(self) unless owner.name.include?(self) 
-  end   
-    
- 
   def say_species
     "I am a #{@species}."
   end 
