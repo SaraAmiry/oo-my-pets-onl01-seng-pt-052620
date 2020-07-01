@@ -1,6 +1,5 @@
 class Owner
-  attr_accessor :name 
-  attr_reader :species
+  attr_reader :species, :name 
   
   @@all = []
   def initialize(name)
@@ -9,7 +8,8 @@ class Owner
     @@all << self
   end 
  
-  def owner_name(name) 
+  def owner_name(name)
+    
     raise NoMethodError, 
     "#{owner.class} received, owner name expected." if !owner.is_a?(owner)
     @owner = owner
